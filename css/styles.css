@@ -2542,7 +2542,7 @@ progress {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(0, 110, 0, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -10992,6 +10992,37 @@ textarea.form-control-lg {
   .text-xl-center {
     text-align: center !important;
   }
+
+  /* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+    .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+/* Featurettes End
+------------------------- */
 }
 @media (min-width: 1400px) {
   .float-xxl-start {
@@ -11778,15 +11809,15 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #006e00;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #006e00;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #006e00;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #006e00;
   }
 }
 
@@ -11974,7 +12005,7 @@ header .overlay {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #006e00;
   }
 }
 .projects-section .project-text {
